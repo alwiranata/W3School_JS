@@ -3,4 +3,5 @@ function handleClick(){
     const lastName = prompt("Masukkan lastName : ")
     let fullname = (firstname+ " " + lastName)
     return document.getElementById("demo").innerHTML = fullname
+    
 }
